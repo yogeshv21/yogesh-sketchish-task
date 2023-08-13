@@ -1,0 +1,1 @@
+export {default as IconPage} from "./icon-details-page/IconPage"

@@ -1,0 +1,33 @@
+.btn {
+    margin-left: .6rem;
+
+    display: flex;
+    padding: .8rem 1rem;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 0.625rem;
+    border: .1rem solid #1E3050;
+    background-color: var(--light-gray);
+    box-shadow: 0px .1rem 0px 0px #FFF inset, 0px .1rem 0px 0px rgba(0, 0, 0, 0.20);
+}
+
+.extraPadding {
+    padding: .8rem 1.8rem;
+}
+
+.btn img {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.btn span {
+    margin-left: .5rem;
+    font-size: 0.9375rem;
+    font-family: "Nunito-ExtraBold";
+    color: var(--primary);
+}
+
+.btnActive {
+    background-color: #FAD338 !important;
+}

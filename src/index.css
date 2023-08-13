@@ -1,13 +1,34 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "Nunito-ExtraBold";
+  src: url("./assets/fonts/Nunito-ExtraBold.ttf");
+}
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("./assets/fonts/Nunito-Bold.ttf");
+}
+@font-face {
+  font-family: "Nunito-SemiBold";
+  src: url("./assets/fonts/Nunito-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Nunito-Medium";
+  src: url("./assets/fonts/Nunito-Medium.ttf");
+}
+@font-face {
+  font-family: "Nunito-Regular";
+  src: url("./assets/fonts/Nunito-Regular.ttf");
+}
+@font-face {
+  font-family: "Nunito-Light";
+  src: url("./assets/fonts/Nunito-Light.ttf");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  /* Colors */
+  --light-gray : #F0F3F5;
+  --primary: #1E3050;
+  --text-secondary:#676F7E;
+  --brand-color:#7238FA;
+  --white-color: #FFFFFF;
+  --dark-gray: #C5CAD3
 }
